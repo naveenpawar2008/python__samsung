@@ -1,0 +1,81 @@
+/* certificate.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #c9b5b5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.certificate-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #795050;
+    border: 5px solid #4CAF50;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.certificate {
+    text-align: center;
+}
+
+.certificate-title {
+    font-size: 36px;
+    color: #4CAF50;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.certificate-text {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.recipient-name {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+    margin: 10px 0;
+}
+
+.course-name {
+    font-size: 24px;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.completion-date {
+    font-size: 20px;
+    color: #333;
+    margin: 20px 0;
+}
+
+.signature {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.signature-title {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+.instructor-name {
+    font-size: 20px;
+    color: #000;
+    font-style: italic;
+    margin-top: 5px;
+}
